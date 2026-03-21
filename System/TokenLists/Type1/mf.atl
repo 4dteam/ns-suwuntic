@@ -1,0 +1,22 @@
+__/ ARTIFICIAL TOKEN LIST SPECIFICATION 1 /__
+TOKENTYPE=MaterialForm (
+	leadingproperty_TYPEB
+	
+	def0 (
+		defname == FORMATION
+		multipliable == TRUE
+		redefinable == TRUE
+	)
+	
+	def1 (
+		defname == FORMNAME
+		multipliable == FALSE
+		redefinable == TRUE
+	)
+	
+	def2 (
+		defname == OBJECT
+		multipliable == TRUE
+		redefinable == TYPEB
+	)
+)

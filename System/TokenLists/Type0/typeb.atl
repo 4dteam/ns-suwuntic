@@ -1,0 +1,12 @@
+__/ ARTIFICIAL TOKEN LIST SPECIFICATION 1 /__
+TOKENTYPE=TYPEB (
+	leadingproperty_0
+	
+	def0 (
+		redefinable == TRUE
+	)
+	
+	def1 (
+		redefinable == FALSE
+	)
+)

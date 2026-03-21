@@ -1,0 +1,22 @@
+__/ ARTIFICIAL TOKEN LIST SPECIFICATION 1 /__
+TOKEN=MaterialForm.leadingproperty:
+	leadingproperty_Water
+	
+	property_0(STORE:
+		propertystore_0(FORMATION:OXYGEN1)
+		propertystore_1(FORMATION:HYDROGEN2)
+		propertystore_2(FORMNAME:H2O)
+	) EOS
+	
+	property_1(CALL:HYDRATATION.ATL)
+	property_2(STORE:
+		propertystore_0(OBJECT=X=SOLID)
+		propertystore_1(OBJECT=LIQUID)
+		propertystore_2(OBJECT=X=AIRGAS)
+	) EOS
+	
+	property_3(RETURN:
+		return1(REQUIREDHUMANOPERATION,FUNCTION,WEIGHTUNDEFINED,FINITE) __ I WAS RUNNING OUT OF IDEAS FOR THIS RETURN __
+	) EOS
+EOB
+EOF
