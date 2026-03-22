@@ -44,7 +44,8 @@ EOF
 
 **ARTIFICIAL PATTERN LIST**
 
-```apl 1.0
+```
+apl 1.0
 
 pattern
 
