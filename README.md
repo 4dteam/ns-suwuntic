@@ -39,7 +39,7 @@ TOKEN=MaterialForm.leadingproperty:
 	) EOS
 EOB
 EOF
-´
+`
 
 **ARTIFICIAL PATTERN LIST**
 
