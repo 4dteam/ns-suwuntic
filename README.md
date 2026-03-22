@@ -17,7 +17,8 @@ ATL and APL are arguably big beasts, and can do a ton of stuff like specifying a
 
 **ARTIFICIAL TOKEN LIST**
 
-```__/ ARTIFICIAL TOKEN LIST SPECIFICATION 1 /__
+```
+__/ ARTIFICIAL TOKEN LIST SPECIFICATION 1 /__
 
 TOKEN=MaterialForm.leadingproperty:
 	leadingproperty_Water
