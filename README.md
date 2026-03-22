@@ -19,7 +19,6 @@ ATL and APL are arguably big beasts, and can do a ton of stuff like specifying a
 
 ```
 __/ ARTIFICIAL TOKEN LIST SPECIFICATION 1 /__
-
 TOKEN=MaterialForm.leadingproperty:
 	leadingproperty_Water
 	
@@ -47,29 +46,17 @@ EOF
 
 ```
 apl 1.0
-
 pattern
-
 point 0, mf.pf.sf.gf
-
 store 0
-
 	string 1
-	
-		"Hello, world!"
-		
+		"Hello, world!"	
 	e 1
-	
 e 0
-
 nu
-
 	pull 1
-	
 	e 1
-	
 e 0
-
 quit 0
 ```
 
