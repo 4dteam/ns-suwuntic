@@ -11,4 +11,33 @@ Well, if you are interested you can start providing your own token lists and pat
 
 **If you want to use this model, download the source code or one of the releases, since they use interpreted languages that can be ran from pure source code or from full executables.**
 
+### How do the formats used work?
+
+ATL and APL are arguably big beasts, and can do a ton of stuff like specifying advanced tokens that call each other or patterns that fully express intelligence and user-first operation. These are some examples on how the format works:
+
+**ARTIFICIAL TOKEN LIST**
+´__/ ARTIFICIAL TOKEN LIST SPECIFICATION 1 /__
+TOKEN=MaterialForm.leadingproperty:
+	leadingproperty_Water
+	
+	property_0(STORE:
+		propertystore_0(FORMATION:OXYGEN1)
+		propertystore_1(FORMATION:HYDROGEN2)
+		propertystore_2(FORMNAME:H2O)
+	) EOS
+	
+	property_1(CALL:HYDRATATION.ATL)
+	property_2(STORE:
+		propertystore_0(OBJECT=X=SOLID)
+		propertystore_1(OBJECT=LIQUID)
+		propertystore_2(OBJECT=X=AIRGAS)
+	) EOS
+	
+	property_3(RETURN:
+		return1(REQUIREDHUMANOPERATION,FUNCTION,WEIGHTUNDEFINED,FINITE) __ I WAS RUNNING OUT OF IDEAS FOR THIS RETURN __
+	) EOS
+EOB
+EOF
+´
+
 BY NINSHOT
