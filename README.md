@@ -16,6 +16,7 @@ Well, if you are interested you can start providing your own token lists and pat
 ATL and APL are arguably big beasts, and can do a ton of stuff like specifying advanced tokens that call each other or patterns that fully express intelligence and user-first operation. These are some examples on how the format works:
 
 **ARTIFICIAL TOKEN LIST**
+
 ´__/ ARTIFICIAL TOKEN LIST SPECIFICATION 1 /__
 TOKEN=MaterialForm.leadingproperty:
 	leadingproperty_Water
@@ -40,4 +41,26 @@ EOB
 EOF
 ´
 
+**ARTIFICIAL PATTERN LIST**
+
+`apl 1.0
+pattern
+point 0, mf.pf.sf.gf
+store 0
+	string 1
+		"Hello, world!"
+	e 1
+e 0
+nu
+	pull 1
+	e 1
+e 0
+quit 0
+`
+
+These files would be located on the System\TokenLists and System\Patterns folder.
+
+CONTRIBUTIONS WOULD BE AND ARE GREATLY APPRECIATED
+RELEASED UNDER THE GPL GENERAL PUBLIC LICENSE V3.0
 BY NINSHOT
+
